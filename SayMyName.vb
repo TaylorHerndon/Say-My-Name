@@ -2,13 +2,19 @@
 
     Sub Main()
 
+        'Initalize Variables'
+
         Dim Name As String = ""
         Dim Count As Integer = 0
+
+        'Ask user for their name...
 
         Console.WriteLine("Hello, before we can get started I'll need to know your name!")
         System.Threading.Thread.Sleep(2000)
         Console.WriteLine("Please type your name below and press enter!")
         Name = Console.ReadLine()
+
+        'Processing buffer for aesthetics
 
         Console.Clear()
         Console.Write("Processing")
@@ -21,14 +27,20 @@
         System.Threading.Thread.Sleep(250)
         Console.Clear()
 
+        'Write the name back to the user
+
         Console.WriteLine("Why hello " & Name & ", welcome to this program!")
         System.Threading.Thread.Sleep(1500)
         Console.Clear()
+
+        'Set window size to maximum
 
         Console.WindowHeight = Console.LargestWindowHeight
         Console.WindowWidth = Console.LargestWindowWidth
         Console.SetBufferSize(Console.LargestWindowWidth, Console.LargestWindowHeight)
         Console.SetWindowPosition(0, 0)
+
+        'Draw an ASCII art because why not
 
         Console.WriteLine("                                                                                                                                                                                                        
                                                                                                                                                                                                         
@@ -88,6 +100,8 @@
                                                                                                                                                                                                         
                                                                                                                                                                                                         
 ")
+
+        'Wait for user input for the program to end
 
         Console.ReadKey()
 
