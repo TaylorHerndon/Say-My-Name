@@ -1,4 +1,7 @@
-﻿Module SayMyName
+﻿Option Explicit On
+Option Strict On
+
+Module SayMyName
 
     Sub Main()
 
