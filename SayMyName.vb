@@ -1,4 +1,10 @@
-﻿Option Explicit On
+﻿'Taylor Herndon
+'RCET0265
+'Spring 2021
+'Say My Name
+'https://github.com/TaylorHerndon/Say-my-Name
+
+Option Explicit On
 Option Strict On
 
 Module SayMyName
