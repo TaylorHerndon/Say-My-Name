@@ -2,7 +2,7 @@
 'RCET0265
 'Spring 2021
 'Say My Name
-'https://github.com/TaylorHerndon/Say-my-Name
+'https://github.com/TaylorHerndon/Say-My-Name
 
 Option Explicit On
 Option Strict On
@@ -13,8 +13,8 @@ Module SayMyName
 
         'Initalize Variables'
 
-        Dim Name As String = ""
-        Dim Count As Integer = 0
+        Dim name As String = ""
+        Dim count As Integer = 0
 
         'Ask user for their name...
 
